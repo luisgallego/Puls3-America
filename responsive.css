@@ -197,12 +197,11 @@
 /*Ahora. Si la resolución llega a ser menor a 475px:*/
 @media screen and (max-width: 475px)
 {
-	/*El botón de publicar deje de flotar a la derecha, para que no se quiebre, y comienze a ser otro botón común del nav*/
-	
+	/************************AQUÍ*****************************************/
 nav ul li{
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+    	margin-right: auto;
 }
 
 }
